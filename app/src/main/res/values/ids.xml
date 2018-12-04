@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="name_place" type="id"/>
+    <item name="location" type="id"/>
+    <item name="image" type="id"/>
+
+    <item name="image_account" type="id"/>
+    <item name="user" type="id"/>
+    <item name="email" type="id"/>
+    <item name="button_signout" type="id"/>
+</resources>

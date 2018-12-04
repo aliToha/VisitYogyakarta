@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "959692464938",
+    "firebase_url": "https://pariwisata-yogyakarta-f3fa7.firebaseio.com",
+    "project_id": "pariwisata-yogyakarta-f3fa7",
+    "storage_bucket": "pariwisata-yogyakarta-f3fa7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959692464938:android:ae80b89bd0606100",
+        "android_client_info": {
+          "package_name": "com.muthohhari.visityogyakarta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "959692464938-b8p8vbniskptccn9knm51v379spkd9c8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.muthohhari.visityogyakarta",
+            "certificate_hash": "1db18c3b097129dc6d1d5744f1cba691b965fe7a"
+          }
+        },
+        {
+          "client_id": "959692464938-g57ulgmauv7bdjn2e58mnk4cihgrbc4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTrnGxzvz3t5qtpV4wnn4RLLE5dLxz2tM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "959692464938-g57ulgmauv7bdjn2e58mnk4cihgrbc4r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

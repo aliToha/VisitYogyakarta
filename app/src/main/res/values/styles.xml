@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Custom" parent="Theme.AppCompat.Light.NoActionBar"/>
+
+    <style name="HintText">
+        <item name="android:textSize">5sp</item>
+    </style>
+
+    <style name="LoginCreateText">
+        <item name="android:textSize">@dimen/login_buttons_text_size</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:layout_margin">2dp</item>
+    </style>
+
+    <style name="LoginCreateTextButton">
+        <item name="android:textSize">@dimen/login_buttons_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="Header">
+        <item name="android:textSize">@dimen/header_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/black_opacity</item>
+        <item name="android:layout_margin">2dp</item>
+    </style>
+
+    <style name="SubHeader">
+        <item name="android:textSize">@dimen/lv_header_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/black_opacity</item>
+        <item name="android:layout_margin">2dp</item>
+    </style>
+
+    <style name="Content">
+        <item name="android:textSize">@dimen/lv_header_text_size</item>
+        <item name="android:textColor">@color/dark_grey</item>
+        <item name="android:layout_margin">2dp</item>
+    </style>
+
+    <!--Splash screen-->
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/splash</item>
+    </style>
+</resources>
