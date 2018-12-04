@@ -1,6 +1,7 @@
 package com.muthohhari.visityogyakarta.Account
 
 
+import android.graphics.Color
 import android.graphics.Typeface
 import android.os.Bundle
 import android.view.Gravity
@@ -18,8 +19,8 @@ import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.firebase.auth.FirebaseAuth
-import com.muthohhari.visityogyakarta.login.Login
 import com.muthohhari.visityogyakarta.R
+import com.muthohhari.visityogyakarta.login.Login
 import org.jetbrains.anko.*
 import org.jetbrains.anko.support.v4.UI
 import org.jetbrains.anko.support.v4.ctx
@@ -41,7 +42,7 @@ class AccountFragment : Fragment() {
         return UI {
             linearLayout {
                 orientation = LinearLayout.VERTICAL
-                backgroundColor = resources.getColor(R.color.splash)
+                backgroundColor = Color.alpha(R.color.splash)
                 lparams(matchParent, matchParent) {
                     padding = dip(80)
                     gravity = Gravity.CENTER
