@@ -7,6 +7,6 @@ interface ViewHome {
 
     fun showProgressbar()
     fun hideProgressbar()
-    fun onSuccess(reposnseModel: Response<Pariwisata>)
+    fun onSuccess(respon: Response<Pariwisata>)
     fun onError(throwable: Throwable)
 }
