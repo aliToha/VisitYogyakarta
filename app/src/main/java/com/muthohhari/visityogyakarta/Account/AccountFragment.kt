@@ -88,7 +88,7 @@ class AccountFragment : Fragment() {
             .build()
 
         val googleSignInAccount = GoogleSignIn.getLastSignedInAccount(context)
-        val image = googleSignInAccount!!.photoUrl.toString()
+        val image = googleSignInAccount?.photoUrl.toString()
         if (!image.isEmpty()) {
             Glide.with(view!!.context).load(image).into(imageAccount)
         }
